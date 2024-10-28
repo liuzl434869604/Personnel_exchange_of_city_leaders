@@ -27,7 +27,7 @@ Here, the term "rotation" refers to inter-city personnel exchanges of city leade
 
 
 
-***************Baselin regressions*********************
+***************Baseline regressions*********************
 
 global controls "ln_gdppc ln_popden ln_expenditure_pc ln_leader_age ln_leader_tenure  ln_output ln_age  ln_labor  "
 global  fe "firm  code_province#year  leader_id"
@@ -619,7 +619,7 @@ coefplot  (as_p_water_consumption , keep(Rotation_transplantation) rename(Rotati
 **************Advanced governanace experiences********************************************
 
 
-//environement-related departments
+//environment-related departments
 cap drop  career_environ*
 
 gen career_environment_temp_1=regexm(last_position, "环境" ) //environemnt protecteion in Chinese

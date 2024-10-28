@@ -3,4 +3,4 @@ This research estimates the impacts of inter-city personnel exchange of city lea
 
 Here, "Do file.do" includes the Stata code used for analysis.
 "City leaders.dta" provides the bibliographical information on city leaders during our study period.
-"City-level socio-economic data.dta" includes city-level socio-economic data, which is obtained from China's Statistical Yearbooks.
+"City-level socio-economic data.dta" includes city-level socio-economic data obtained from China’s City Statistical Yearbooks.
